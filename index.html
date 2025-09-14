@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tuyển Cộng Tác Viên & Đại Lý</title>
+  <meta name="description" content="Chương trình tuyển CTV & Đại lý — Hoa hồng hấp dẫn, hỗ trợ đào tạo, công cụ bán hàng đầy đủ.">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    :root{
+      --brand-1:#10b981; /* xanh ngọc */
+      --brand-2:#2563eb; /* xanh dương */
+      --brand-ink:#0f172a;
+    }
+    body{color:#0f172a; background:#f8fafc;}
+    .navbar{backdrop-filter:saturate(160%) blur(8px);}
+    .brand-gradient{
+      background: linear-gradient(135deg,var(--brand-2),var(--brand-1));
+      background-clip:text; -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+    }
+    .btn-brand{background:linear-gradient(135deg,var(--brand-2),var(--brand-1)); border:0;}
+    .btn-brand:hover{opacity:.92;}
+    .badge-soft{background:#ecfeff; color:#0369a1; border:1px solid #cffafe;}
+    .hero{
+      background: radial-gradient(1200px 600px at 20% -10%, #dbeafe 0%, rgba(219,234,254,0) 70%),
+                  radial-gradient(900px 500px at 120% 10%, #ccfbf1 0%, rgba(204,251,241,0) 65%);
+    }
+    .shadow-soft{box-shadow:0 10px 30px rgba(2,6,23,.06);}
+    .icon-bullet{width:42px;height:42px;display:inline-flex;align-items:center;justify-content:center;border-radius:999px;background:#eef2ff;color:#4338ca}
+    .section-title .subtitle{letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#64748b;font-size:.82rem}
+    .table-compact td, .table-compact th{padding:.6rem .75rem;}
+    .progress{height:.6rem;}
+    .footer a{color:#e2e8f0}
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <span class="brand-gradient">YourBrand</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#benefits">Lợi ích</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tiers">Cấp bậc</a></li>
+        <li class="nav-item"><a class="nav-link" href="#model">Mô hình</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-brand ms-lg-3 text-white">Liên hệ ngay</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero py-5 py-lg-6">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7">
+        <span class="badge badge-soft mb-3">Tuyển Cộng tác viên & Đại lý</span>
+        <h1 class="display-5 fw-bold">Bắt đầu kiếm thu nhập <span class="brand-gradient">hôm nay</span> cùng YourBrand</h1>
+        <p class="lead text-secondary mt-3">Hoa hồng hấp dẫn, hệ thống đào tạo bài bản, công cụ số sẵn sàng.
+          Phù hợp người mới lẫn đội nhóm chuyên nghiệp.</p>
+        <div class="d-flex gap-2 mt-3">
+          <a href="#contact" class="btn btn-brand btn-lg text-white"><i class="bi bi-rocket-takeoff me-2"></i>Liên hệ đăng ký</a>
+          <a href="#tiers" class="btn btn-outline-primary btn-lg"><i class="bi bi-diagram-3 me-2"></i>Xem cấp bậc</a>
+        </div>
+        <div class="d-flex gap-4 mt-4 text-secondary">
+          <div><i class="bi bi-shield-check me-1 text-success"></i>Chính sách minh bạch</div>
+          <div><i class="bi bi-people me-1 text-primary"></i>Đào tạo 1-1 & nhóm</div>
+          <div><i class="bi bi-phone me-1 text-success"></i>App/Tool bán hàng</div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="card shadow-soft border-0" id="contact">
+          <div class="card-body p-4">
+            <h5 class="mb-3">Liên hệ đăng ký</h5>
+            <p class="text-secondary mb-4">Chọn cách liên hệ thuận tiện nhất để đăng ký tham gia chương trình CTV & Đại lý:</p>
+            
+            <div class="d-grid gap-3">
+              <!-- Facebook Messenger -->
+              <a href="https://www.facebook.com/realhappymarket/" target="_blank" class="btn btn-primary text-white">
+                <i class="bi bi-messenger me-2"></i>Nhắn tin Facebook
+              </a>
+              
+              <!-- Zalo -->
+              <a href="https://zalo.me/0946011320" target="_blank" class="btn btn-info text-white">
+                <i class="bi bi-chat-dots me-2"></i>Chat Zalo
+              </a>
+              
+              <!-- Gọi điện -->
+              <a href="tel:0946011320" class="btn btn-success text-white">
+                <i class="bi bi-telephone me-2"></i>Gọi điện: 0946011320
+              </a>
+            </div>
+            
+            <div class="mt-4 p-3 bg-light rounded-3">
+              <h6 class="fw-bold mb-2">Thông tin cần chuẩn bị:</h6>
+              <ul class="list-unstyled small mb-0">
+                <li><i class="bi bi-check-circle text-success me-2"></i>Họ tên đầy đủ</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Số điện thoại</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Kênh bán hàng chính</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Vai trò mong muốn (CTV/Đại lý/NPP)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <small class="text-secondary d-block mt-2">* Liên hệ trực tiếp để được tư vấn chi tiết và đăng ký nhanh chóng.</small>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- BENEFITS -->
+<section id="benefits" class="py-5">
+  <div class="container">
+    <div class="section-title text-center mb-4">
+      <div class="subtitle">Lợi ích khi tham gia</div>
+      <h2 class="fw-bold">Tăng thu nhập & xây đội bền vững</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="p-4 bg-white rounded-4 shadow-soft h-100">
+          <div class="icon-bullet mb-3"><i class="bi bi-cash-coin"></i></div>
+          <h5>Hoa hồng hấp dẫn</h5>
+          <p class="text-secondary mb-0">Chia sẻ doanh thu rõ ràng, trả đúng – đủ – kịp thời.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 bg-white rounded-4 shadow-soft h-100">
+          <div class="icon-bullet mb-3"><i class="bi bi-mortarboard"></i></div>
+          <h5>Đào tạo & tài liệu</h5>
+          <p class="text-secondary mb-0">Kịch bản bán hàng, social content, video mẫu, checklist A–Z.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 bg-white rounded-4 shadow-soft h-100">
+          <div class="icon-bullet mb-3"><i class="bi bi-graph-up-arrow"></i></div>
+          <h5>Công cụ số</h5>
+          <p class="text-secondary mb-0">Link tracking, dashboard doanh số, hỗ trợ kỹ thuật 7/7.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIERS -->
+<section id="tiers" class="py-5 bg-white">
+  <div class="container">
+    <div class="section-title text-center mb-4">
+      <div class="subtitle">Cấp bậc tham gia</div>
+      <h2 class="fw-bold">Chọn lộ trình phù hợp</h2>
+    </div>
+    <div class="row g-4">
+      <!-- CTV -->
+      <div class="col-lg-4">
+        <div class="card h-100 border-0 shadow-soft rounded-4">
+          <div class="card-body p-4">
+            <h5 class="fw-bold">Cộng tác viên</h5>
+            <p class="text-secondary">Bán lẻ qua mạng xã hội, không cần vốn.</p>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Hoa hồng bán trực tiếp: <b>15%</b></li>
+              <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Thưởng giới thiệu: <b>3%</b></li>
+              <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Kho nội dung có sẵn</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-primary w-100">Liên hệ</a>
+          </div>
+        </div>
+      </div>
+      <!-- Đại lý -->
+      <div class="col-lg-4">
+        <div class="card h-100 border-0 shadow-soft rounded-4">
+          <div class="card-body p-4">
+            <div class="d-flex justify-content-between align-items-center">
+              <h5 class="fw-bold">Đại lý</h5>
+              <span class="badge text-bg-success">Phổ biến</span>
+            </div>
+            <p class="text-secondary">Mua sỉ – bán lẻ, phát triển mini team.</p>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Hoa hồng trực tiếp: <b>15%+</b> theo doanh số</li>
+              <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Thưởng leader (Thủ lĩnh): <b>2%</b></li>
+              <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Hỗ trợ vật phẩm, POSM</li>
+            </ul>
+            <a href="#contact" class="btn btn-brand w-100 text-white">Liên hệ đăng ký</a>
+          </div>
+        </div>
+      </div>
+      <!-- NPP KV -->
+      <div class="col-lg-4">
+        <div class="card h-100 border-0 shadow-soft rounded-4">
+          <div class="card-body p-4">
+            <h5 class="fw-bold">Nhà phân phối khu vực</h5>
+            <p class="text-secondary">Quản trị kho, hỗ trợ hệ thống, mở rộng thị trường.</p>
+            <ul class="list-unstyled small">
+              <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Chiết khấu khu vực: <b>5%</b></li>
+              <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Hỗ trợ mở điểm bán & đào tạo</li>
+              <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Bảo vệ khu vực kinh doanh</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-primary w-100">Liên hệ tư vấn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVENUE MODEL -->
+<section id="model" class="py-5">
+  <div class="container">
+    <div class="section-title text-center mb-4">
+      <div class="subtitle">Mô hình chia sẻ</div>
+      <h2 class="fw-bold">Minh bạch & vì cộng đồng</h2>
+      <p class="text-secondary">Dựa theo bảng bạn cung cấp: tổng phí 35% (trong đó 5% dành cho chương trình “Trường sạch”), lãi ròng 10%.</p>
+    </div>
+
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-6">
+        <div class="table-responsive bg-white rounded-4 shadow-soft">
+          <table class="table table-compact align-middle mb-0">
+            <thead class="table-light">
+              <tr><th>Hạng mục</th><th class="text-end">Tỷ lệ (%)</th><th>Ghi chú</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="fw-semibold">Lãi gộp</td><td class="text-end">45</td><td></td></tr>
+              <tr class="table-secondary"><td class="fw-semibold">Chi phí</td><td class="text-end">—</td><td></td></tr>
+              <tr><td>Nhà phân phối khu vực</td><td class="text-end">5</td><td>Chủ kho</td></tr>
+              <tr><td>Thủ lĩnh</td><td class="text-end">2</td><td>Chủ shop/Leader</td></tr>
+              <tr><td>Người bán trực tiếp</td><td class="text-end">15</td><td>CTV/Đại lý</td></tr>
+              <tr><td>Người giới thiệu</td><td class="text-end">3</td><td>Referral</td></tr>
+              <tr><td>Vận hành</td><td class="text-end">5</td><td>Logistics/CS</td></tr>
+              <tr><td>Tài trợ “Trường sạch”</td><td class="text-end">5</td><td>CSR</td></tr>
+              <tr class="table-light"><td class="fw-semibold">Tổng phí</td><td class="text-end fw-bold">35</td><td></td></tr>
+              <tr class="table-success"><td class="fw-semibold">Lãi ròng</td><td class="text-end fw-bold">10</td><td>Reinvest & tăng trưởng</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="bg-white rounded-4 shadow-soft p-4">
+          <h5 class="mb-3">Tỷ trọng trực quan</h5>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between small">
+              <span>Người bán trực tiếp</span><span>15%</span>
+            </div>
+            <div class="progress"><div class="progress-bar bg-success" style="width:15%"></div></div>
+          </div>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between small">
+              <span>Nhà phân phối khu vực</span><span>5%</span>
+            </div>
+            <div class="progress"><div class="progress-bar" style="width:5%"></div></div>
+          </div>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between small">
+              <span>Thủ lĩnh</span><span>2%</span>
+            </div>
+            <div class="progress"><div class="progress-bar" style="width:2%"></div></div>
+          </div>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between small">
+              <span>Người giới thiệu</span><span>3%</span>
+            </div>
+            <div class="progress"><div class="progress-bar" style="width:3%"></div></div>
+          </div>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between small">
+              <span>Vận hành</span><span>5%</span>
+            </div>
+            <div class="progress"><div class="progress-bar" style="width:5%"></div></div>
+          </div>
+
+          <div class="mb-3">
+            <div class="d-flex justify-content-between small">
+              <span>Tài trợ “Trường sạch”</span><span>5%</span>
+            </div>
+            <div class="progress"><div class="progress-bar" style="width:5%"></div></div>
+          </div>
+
+          <div class="mb-1">
+            <div class="d-flex justify-content-between small">
+              <span>Lãi ròng</span><span>10%</span>
+            </div>
+            <div class="progress"><div class="progress-bar bg-info" style="width:10%"></div></div>
+          </div>
+
+          <small class="text-secondary">* Con số có thể tùy chỉnh theo chính sách từng thời kỳ.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-5 bg-white">
+  <div class="container">
+    <div class="section-title text-center mb-4">
+      <div class="subtitle">Thắc mắc thường gặp</div>
+      <h2 class="fw-bold">FAQ</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="p-4 bg-white border rounded-4 shadow-soft h-100">
+          <h6 class="fw-bold"><i class="bi bi-question-circle me-2 text-primary"></i>Thanh toán hoa hồng như thế nào?</h6>
+          <p class="text-secondary mb-0">Chốt doanh số hàng tuần, chuyển khoản tối đa trong 3 ngày làm việc.
+            Có dashboard theo dõi đơn, trạng thái & payout.</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-4 bg-white border rounded-4 shadow-soft h-100">
+          <h6 class="fw-bold"><i class="bi bi-question-circle me-2 text-primary"></i>Tôi có cần nhập hàng?</h6>
+          <p class="text-secondary mb-0">CTV không cần vốn. Đại lý & NPP có chính sách sỉ ưu đãi; hệ thống hỗ trợ tồn kho & giao hàng.</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-4 bg-white border rounded-4 shadow-soft h-100">
+          <h6 class="fw-bold"><i class="bi bi-question-circle me-2 text-primary"></i>Đào tạo bao gồm gì?</h6>
+          <p class="text-secondary mb-0">Onboarding 60’, tài liệu bán hàng, kịch bản chat, video mẫu, coaching theo tuần cho leader.</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-4 bg-white border rounded-4 shadow-soft h-100">
+          <h6 class="fw-bold"><i class="bi bi-question-circle me-2 text-primary"></i>Chính sách bảo vệ khu vực?</h6>
+          <p class="text-secondary mb-0">NPP khu vực được khoanh vùng bán hàng & ưu tiên nguồn lực marketing theo thỏa thuận.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-5">
+  <div class="container">
+    <div class="p-4 p-md-5 rounded-4 shadow-soft text-center bg-white">
+      <h3 class="fw-bold mb-2">Sẵn sàng bắt đầu?</h3>
+      <p class="text-secondary mb-4">Gia nhập cộng đồng bán hàng xanh – minh bạch – bền vững.</p>
+      <a href="#contact" class="btn btn-brand btn-lg text-white"><i class="bi bi-stars me-2"></i>Liên hệ ngay</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer py-4" style="background:#0b1220;">
+  <div class="container text-center text-light small">
+    <div class="mb-2">© <span id="year"></span> HappyMarket. All rights reserved.</div>
+    <div class="opacity-75">Hotline: <a href="tel:0946011320">0946011320</a> •
+      Zalo: <a href="https://zalo.me/0946011320" target="_blank">Chat ngay</a> •
+      Facebook: <a href="https://www.facebook.com/realhappymarket/" target="_blank">realhappymarket</a></div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  // TODO: gắn endpoint xử lý form hoặc thay bằng Google Form action
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
