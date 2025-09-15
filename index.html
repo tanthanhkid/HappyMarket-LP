@@ -33,7 +33,9 @@
     .section-title .subtitle{letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#64748b;font-size:.82rem}
     .table-compact td, .table-compact th{padding:.6rem .75rem;}
     .progress{height:.6rem;}
-    .footer a{color:#e2e8f0}
+    .footer a{color:#e2e8f0; transition:color .3s ease;}
+    .footer a:hover{color:#60a5fa;}
+    .footer .opacity-75{opacity:.85;}
     .certificate-card{transition:all .3s ease;}
     .certificate-card:hover{transform:translateY(-5px); box-shadow:0 15px 40px rgba(2,6,23,.12)!important;}
     .certificate-card img{transition:transform .3s ease;}
@@ -596,12 +598,65 @@
 </section>
 
 <!-- FOOTER -->
-<footer class="footer py-4" style="background:#0b1220;">
-  <div class="container text-center text-light small">
-    <div class="mb-2">© <span id="year"></span> HappyMarket. All rights reserved.</div>
-    <div class="opacity-75">Hotline: <a href="tel:0946011320">0946011320</a> •
-      Zalo: <a href="https://zalo.me/0946011320" target="_blank">Chat ngay</a> •
-      Facebook: <a href="https://www.facebook.com/realhappymarket/" target="_blank">realhappymarket</a></div>
+<footer class="footer py-5" style="background:#0b1220;">
+  <div class="container">
+    <div class="row g-4">
+      <!-- Thông tin liên hệ -->
+      <div class="col-lg-6">
+        <div class="text-light">
+          <h6 class="fw-bold mb-3 text-white">Liên hệ với chúng tôi</h6>
+          <div class="d-flex flex-column gap-2 small opacity-75">
+            <div class="d-flex align-items-center">
+              <i class="bi bi-telephone me-2 text-primary"></i>
+              <span>Hotline: <a href="tel:0946011320" class="text-light text-decoration-none">0946011320</a></span>
+            </div>
+            <div class="d-flex align-items-center">
+              <i class="bi bi-chat-dots me-2 text-info"></i>
+              <span>Zalo: <a href="https://zalo.me/0946011320" target="_blank" class="text-light text-decoration-none">Chat ngay</a></span>
+            </div>
+            <div class="d-flex align-items-center">
+              <i class="bi bi-facebook me-2 text-primary"></i>
+              <span>Facebook: <a href="https://www.facebook.com/realhappymarket/" target="_blank" class="text-light text-decoration-none">realhappymarket</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Thông tin công ty -->
+      <div class="col-lg-6">
+        <div class="text-light">
+          <h6 class="fw-bold mb-3 text-white">Thông tin công ty</h6>
+          <div class="small opacity-75">
+            <div class="mb-2">
+              <strong class="text-primary">CÔNG TY TNHH MTV HAPPY MARKET</strong>
+            </div>
+            <div class="mb-1">
+              <i class="bi bi-hash me-2 text-success"></i>
+              <span>Mã số thuế: <strong>0318762112</strong></span>
+            </div>
+            <div class="mb-1">
+              <i class="bi bi-geo-alt me-2 text-warning"></i>
+              <span>Địa chỉ: Số 42 Đường F (Đường 95), Khu dân cư số 5 -143ha, Phường Thạnh Mỹ Lợi, Thành phố Thủ Đức, TP Hồ Chí Minh</span>
+            </div>
+            <div class="mb-1">
+              <i class="bi bi-info-circle me-2 text-info"></i>
+              <span>Tình trạng: <span class="text-success fw-bold">Đang hoạt động</span></span>
+            </div>
+            <div class="mb-1">
+              <i class="bi bi-globe me-2 text-primary"></i>
+              <span>Tên quốc tế: HAPPY MARKET MTV COMPANY LIMITED</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Copyright -->
+    <hr class="my-4" style="border-color: #374151;">
+    <div class="text-center text-light small opacity-75">
+      <div class="mb-2">© <span id="year"></span> HappyMarket. All rights reserved.</div>
+      <div>Chuyên cung cấp dung dịch tẩy rửa gốc sinh học BRT-3 chất lượng cao</div>
+    </div>
   </div>
 </footer>
 
